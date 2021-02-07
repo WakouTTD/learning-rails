@@ -1,0 +1,43 @@
+.idea
+.DS_Store
+.sass-cache/
+log/*.log
+/tmp/
+
+# bundler
+.bundle
+vendor/bundle/
+
+# test
+coverage/
+test_results/
+spec/support/tmp/*
+!spec/support/tmp/.gitkeep
+
+
+# frontend
+node_modules/
+frontend/test/reports
+yarn-error.log
+
+# development
+.env
+erd.pdf
+
+# docker
+.postgres/
+.redis/
+
+# bundled js files
+*.bundle.js
+
+# Ignore master key for decrypting credentials and more.
+# /config/master.key
+
+# ssl certificate
+localhost.pem
+localhost-key.pem
+
+dump.rdb
+
+public/assets
